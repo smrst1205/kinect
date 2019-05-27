@@ -108,6 +108,7 @@ int main(int argc, char** argv)
 		/*Delete callbacks*/
 		pushDetector.UnregisterPush(pushCallback);
 		pushDetector.UnregisterStabilized(stabilizedCallback);
+		waveDetector.UnregisterStabilized(waveCallback);
 		sessionManager.UnregisterSession(sessionCallnack);
 
 
