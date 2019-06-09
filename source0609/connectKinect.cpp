@@ -7,7 +7,6 @@
 #include <XnVPushDetector.h>
 #include <XnVWaveDetector.h>
 
-#include "getOriginalGesture.h"
 #include "connectKinect.h"
 
 
